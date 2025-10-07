@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PAGINA DE ETIQUETAS SEMANTICAS</title>
+</head>
+  <body>
+       <header>
+                  <h1> MI PAGINA DE ETIQUETAS SEMANTICAS </h1>
+
+                  <nav>
+
+
+
+                  </nav>
+           
+
+
+
+       </header>
+            <Main>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, soluta., ipsum dolor sit amet consectetur adipisicing elit. Provident ea saepe quo earum error praesentium autem perspiciatis a! Cumque laboriosam dolorem consequatur sequi amet exercitationem nobis nihil rerum voluptatibus eligendi!</p>
+            <h2>Subtitulo</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <a href="https://www.google.com" target="_blank"> Ir google </a>Provident ea saepe quo earum error praesentium autem perspiciatis a! Cumque laboriosam dolorem consequatur sequi amet exercitationem nobis nihil rerum voluptatibus eligendi!</p>
+             <ul>
+            <li>  item 1 </li>
+            <li>  item 2 </li>
+
+            </ul>
+              <form action=" ">
+
+                <fieldset>
+                     <legend> InformaciÓn personal </legend>
+                     <label for="text">Nombre :</label>
+                     <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" required> 
+                       <br>
+
+                       <div>
+                       <label for="text"> Edad :</label>
+                      <input type="number" name="number" id="Edad" placeholder="Edad" required  min="18" max="99"> 
+                      </div>  
+                       <br>
+                </fieldset>
+
+                      <div>
+                
+
+                     
+                      </div>
+                      <fieldset>
+                         <legend> Información de Contacto</legend>
+                          <br>
+                          <br>  
+                          <div>
+                          <label for="text">Telefono  :</label>
+                          <input type="number" name="Telefono" id="Telefono" placeholder="10 Digitos" required pattern="[0-9]{10}"/> 
+                          </div>  
+                
+                          <br>
+                           <div>
+                          <label for="Correo">Correo</label>
+                         <input type="email" name="email" id="email" placeholder="e-mail" required> 
+                          </div>
+                          <br>
+
+                      </fieldset>
+                     
+                
+                <input type="submit" value=" ENVIAR">
+                 
+              </form>
+                  
+            </Main>
+            <footer>
+                    <h3>
+                        ANDÉS FELIPE CÓRTES VERGARA
+                    </h3>
+                 
+            </footer>
+      
+           
+  </body>
+</html>
